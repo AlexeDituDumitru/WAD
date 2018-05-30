@@ -1,0 +1,13 @@
+----------------------------------------------------------------
+Thu Apr 26 15:33:58 EEST 2018:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.1.0 - (1808820): instance a816c00e-0163-01f2-2ba5-0000071b1750 
+on database directory memory:/home/catalin/Facultate/springbootex/WadTestApi/testdb with class loader sun.misc.Launcher$AppClassLoader@73d16e93 
+Loaded from file:/home/catalin/.m2/repository/org/apache/derby/derby/10.14.1.0/derby-10.14.1.0.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0_111-b14
+user.dir=/home/catalin/Facultate/springbootex/WadTestApi
+os.name=Linux
+os.arch=amd64
+os.version=4.4.0-116-generic
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''

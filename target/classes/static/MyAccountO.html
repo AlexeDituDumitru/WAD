@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+<title>Cherry Shop🍒</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1 {font-family: "Raleway", Arial, sans-serif}
+h1 {letter-spacing: 6px}
+.w3-row-padding img {margin-bottom: 12px}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 80%;
+}
+
+td, th {
+    border: 1px solid #858585;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+</style>
+<body>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-content" style="max-width:1500px">
+    
+    <p class="w3-right">
+	<i ></i> <a href="MyAccount.html"><b>My Account</b></a>
+	<i class="fa fa-sign-in"></i> <a href="index.html">Log Out</a>
+    <i class="fa fa-shopping-cart"></i> <a href="ShoppingCart.html">Shopping Cart</a>
+    </p>
+
+<!-- Header -->  
+<header class="w3-panel w3-center" style="paddinry g:128px 16px">
+<header class="w3-panel w3-center w3-opacity" style="paddinry g:128px 16px">
+	<center><h1>CHERRY SHOP🍒</h1></center>
+</header>
+	<div class="w3-padding-32">
+    <div class="w3-bar w3-border">
+	  <div class="w3-dropdown-hover">
+		<button onclick="myFunction()" class="w3-button">WOMEN</button>
+		<div id="Demo" class="w3-dropdown-content w3-bar-block w3-border">
+		<a href="products.html" class="w3-bar-item w3-button">Tops</a>
+		<a href="#" class="w3-bar-item w3-button">Shirts</a>
+		<a href="#" class="w3-bar-item w3-button">Sweaters</a>
+		<a href="#" class="w3-bar-item w3-button">Jackets</a>
+		<a href="#" class="w3-bar-item w3-button">Coats</a>
+		<a href="#" class="w3-bar-item w3-button">Trousers</a>
+		<a href="#" class="w3-bar-item w3-button">Jeans</a>
+		<a href="#" class="w3-bar-item w3-button">Skirts</a>
+		<a href="#" class="w3-bar-item w3-button">Dresses</a>
+		<a href="#" class="w3-bar-item w3-button">Jumpsuits</a>
+	</div>
+	</div>
+	  <div class="w3-dropdown-hover">
+		<button onclick="myFunction2()" class="w3-button">MEN</button>
+		<div id="Demo2" class="w3-dropdown-content w3-bar-block w3-border">
+		<a href="#" class="w3-bar-item w3-button">Tops</a>
+		<a href="#" class="w3-bar-item w3-button">Shirts</a>
+		<a href="#" class="w3-bar-item w3-button">Sweaters</a>
+		<a href="#" class="w3-bar-item w3-button">Jackets</a>
+		<a href="#" class="w3-bar-item w3-button">Coats</a>
+		<a href="#" class="w3-bar-item w3-button">Trousers</a>
+		<a href="#" class="w3-bar-item w3-button">Jeans</a>
+	
+	</div>
+	</div>
+	<a href="#" class="w3-bar-item w3-button">PROMOTIONS</a>
+</div>
+</div>
+<script>
+	function myFunction() {
+		var x = document.getElementById("Demo");
+		if (x.className.indexOf("w3-show") == -1) { 
+			x.className += " w3-show";
+		} else{
+			x.className = x.className.replace(" w3-show", "");
+		}
+	}
+	</script>
+	<script>
+	function myFunction2() {
+		var x = document.getElementById("Demo2");
+		if (x.className.indexOf("w3-show") == -1) { 
+			x.className += " w3-show";
+		} else{
+			x.className = x.className.replace(" w3-show", "");
+		}
+	}
+	</script>
+
+<p class="w3-center" style="font-size:190%">My Account</p>
+    </p>
+	
+ <header class="w3-section w3-bottombar w3-padding-16">
+       
+      <a href="MyAccount.html" class="w3-button w3-white"><u><b>Summary</u></b></a>
+      <a href="MyAccountPI.html" class="w3-button w3-white"><u><b>Personal Information</u></b></a>
+      <a href="MyAccountO.html" class="w3-button w3-white"><u><b>Orders</u></b></a>
+      
+    </header>
+	<br>
+	<br>
+	<br>
+
+<div align = "left" style = "margin-left: 120px; font-size: 2em"><fieldset>
+	<b> &nbsp &nbsp Orders</b></div>
+	<br>
+
+	<table align = "center" >
+  <tr>
+    <th>Date</th>
+    <th>Order ID</th>
+    <th>Price</th>
+	<th>Order Status</th>
+	
+  </tr>
+  
+	<tr>
+
+	<td>22-03-2018</br></td>
+	  <td>123456</br></td>
+	  <td>40$</br></td>
+	  <td>Processed</br></td>
+</tr>
+
+</table>
+<br>
+<br>
+
+<table align ="center" class="table table-bordered table-condensed" >
+              <thead>
+                <tr>
+                  <th>Product</th>
+                  <th>Description &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp </th>
+                  <th>&nbsp &nbsp    Item price</th>
+                  <th>&nbsp &nbsp    Qty </th>
+                  <th>&nbsp &nbsp &nbsp &nbsp &nbsp Total</th>
+				</tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td><img width="100" src="top1a.jpg" alt=""></td>
+                  <td>T-shirt with applications<br>Comfy tee for a hot day.<br>Art. Id: 123456</td
+                  
+                  <td><span class="shopBtn"><span class="icon-ok"></span></span> </td>
+                  <td > &nbsp &nbsp &nbsp $40.00</td>
+                  <td> &nbsp &nbsp 1 </td>
+					
+				</td>
+                  <td> &nbsp &nbsp &nbsp &nbsp $40.00 &nbsp </td>
+                </tr>
+				
+                <br>
+				
+				 <tr>
+                  <td colspan="4" class="alignR">Total products: </td>
+                  <td> &nbsp &nbsp &nbsp &nbsp $40.00</td>
+                </tr>
+				 
+				</tbody>
+            </table><br/>
+		
+	
+	
+	
+	
+</body>
+</html>
+	

@@ -1,0 +1,10 @@
+com\wad\demo\CategoriesRepository.class
+com\wad\demo\ProductsController.class
+com\wad\demo\CherryShop.class
+com\wad\datamodels\Category.class
+com\wad\demo\CategoriesController.class
+com\wad\cart\ShoppingCart.class
+com\wad\demo\ProductsService.class
+com\wad\demo\ProductsRepository.class
+com\wad\cart\ShoppingCartItem.class
+com\wad\datamodels\Product.class
